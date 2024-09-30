@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+/* --------------------------^GERAL^--------------------------- */
+
+.center1{
+    display: flex;
+    padding:0 2%;
+}
+
+.center1 h1{
+    padding-top: 35px;
+}
+
+header{
+    background-color: rgba(170, 170, 170, 0.537);
+    height: 150px;
+    margin: 20px 20px 50px 20px;
+    border-radius: 10px;
+}
+
+.logo  {
+    margin-right: 2%;
+}
+
+.menu{
+    margin-left: auto;
+    padding-top: 60px;
+    text-align: right;
+    font-size: 18px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+/* -------------------------------^MENU^--------------------------------------- */
+
+.center{
+    border: 3px groove black;
+    display: flex;
+    max-width: 60%;
+    margin:0 auto;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.texto-noticia {
+    padding: 0 1%;
+    margin-top: 10px;
+}
+
+.texto-noticia h1{
+    padding-top: 10px;
+    font-size: 35px;
+}
+
+.texto-noticia h2{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.texto-noticia h3{
+    padding-top: 20px;
+}
+
+.texto-noticia p{
+    margin:20px 0;
+    color: black;
+    font-size: 17px;
+    max-width: 100%;
+}
+
+.texto-noticia img{
+    display: flex;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.texto-noticia ul {
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.texto-noticia li {
+    padding-top: 10px;
+}
+
+.texto-noticia hr{
+    border: 1px solid black;
+}
+
+/* -------------------------------^CORPO^--------------------------------------- */
+
+.rodape {
+    margin-top: 100px;
+    padding: 2%;
+    background-color: rgba(170, 170, 170, 0.537);
+    text-align: center;
+    width: 100%;
+}
+
+/* -------------------------------^RODAPÉ^--------------------------------------- */
