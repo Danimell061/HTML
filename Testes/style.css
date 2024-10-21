@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    background-color: rgb(114, 61, 61);
+}
+
+table{
+    height: 100%;
+    width: 100%;
+}
+
+td{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 33%;
+}
+
+.center{
+    text-align: center;
+}
+
+/* -------------------------------- */
+
+img{
+    cursor: pointer;
+    transition: all 1s;
+    border-radius: 10%;
+}
+
+.img1:hover{
+    filter: blur(5px);
+}
+
+.img2:hover{
+    filter: drop-shadow(20px 12px 7px rgba(0,0,0,.5));
+}
+
+.img3:hover{
+    border: 10px solid #000000;
+    border-radius: 50%;
+}
+
+.img4:hover{
+    transform: rotateZ(360deg);
+}
+
+.img5:hover{
+    filter: blur(5px);
+}
+
+.img6:hover{
+    filter: blur(5px);
+}
+
+.img7:hover{
+    filter: blur(5px);
+}
+
+.img8:hover{
+    filter: blur(5px);
+}
+
+.img9:hover{
+    filter: blur(5px);
+}
+
