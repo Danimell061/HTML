@@ -1,0 +1,22 @@
+.typing-effects {
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid black;
+    animation: typing 10s steps(30) infinite, blink 1s infinite;
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    to {
+        width: 52%;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
