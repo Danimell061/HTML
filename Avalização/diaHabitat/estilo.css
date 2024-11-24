@@ -1,0 +1,166 @@
+/*------Formatações gerais-------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+	background: #EAEAEA;
+}
+
+h1{
+	font-size: 1.6em;
+	padding-bottom: 15px;
+	color: #2c590e ;
+}
+
+h2{
+	font-size: 1.3em;
+	padding-top: 10px;
+	color: rgb(19, 58, 9) ;
+}
+
+h3{
+	font-size: 1.1em;
+	padding-top: 10px;
+	color: #162512 ;
+}
+
+p{
+	font-size: 16px;
+	color: #00140b;
+}
+/* -----Links----- */
+
+#menu a {
+	border: 0px solid red;
+	color: #fffcf2;
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+
+
+/* ----- Logo e Menu ----- */
+
+#cabecalho {
+	border: 2px solid #21f105;
+	border-radius: 10px;
+	background: #548C1C;
+	margin: 15px auto;
+	width: 98%; /* Ajuste para controlar a largura da tabela */
+}
+
+#titulo{
+	border: 0px solid red;
+	font-size: 20px;
+	color: rgb(242, 255, 219);
+	width: 12%;
+	text-align: left;
+	padding: 20px 10px;
+
+}
+
+#logo {
+	border: 0px solid red;
+	width: 2%;
+	text-align: left;
+	padding: 20px;
+	padding-left: 35px;
+	padding-bottom: 30px;
+	padding-right: 30px;
+}
+
+#menu {
+	border: 0px solid red;
+	padding: 47px;
+	padding-left: 30px;
+	text-align: left;
+}
+
+/* -----Postagem------ */
+
+.corpo{
+	border: 0px groove #000113;
+	border-radius: 5px;
+	flex: auto;
+	background: #ffffff;
+	padding-top: 20px;
+	margin: auto;
+	width: 70%;
+
+}
+
+.postagem{
+	border: 0px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.postagem h1{
+	margin-bottom: 10px;
+}
+
+.postagem img{  
+	border: 0px solid #0000002a;
+	border-radius: 5px;
+	width: 45%;
+	margin-top: 10px;
+	margin-bottom: 5px;
+
+}
+
+.postagem p{
+	text-align: justify;
+	margin: 10px 0px;
+	padding-top: 2.5px;
+	padding-right: 10px;
+	padding-bottom: 2.5px;
+}
+
+.postagem hr{
+	margin-bottom: 30px;
+}
+
+.postagem ul{
+	text-align: justify;
+	margin: 10px 0px;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-right: 10px;
+}
+
+.postagem li{
+	text-align: justify;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+/* -------Adicionais --------*/
+
+
+.fl{
+	float: left;
+	margin-right: 30px;
+}
+.fr{
+	float: right;
+	margin-left: 30px;
+}
+
+#rodape{
+	border: 0px solid #80ff00;
+	text-align: center;
+	color: #f6fdea;
+	background: #548C1C;
+	margin: auto;
+	margin-top: 20px;
+	padding: 25px;
+	width: 100%; /* Ajuste para controlar a largura da tabela */
+
+}
